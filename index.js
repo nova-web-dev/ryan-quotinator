@@ -13,7 +13,7 @@ function generateQuote() {
         setTimeout(() => {
             let index = randomIntFromInterval(0, quotes.best_quotes.length -1);
             let quote = quotes.best_quotes[index];
-            let date = moment(quote.date).format("MMM Do YYYY");
+            let date = moment(quote.date).format("MMM Do YYYY - hh:mm");
             lolcatjs.fromString('==========================================\n');
             lolcatjs.fromString('" ' + quote.text + ' "');
             lolcatjs.fromString('\n\n-- Ryan Sloane, ' + date);
