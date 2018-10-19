@@ -1,6 +1,9 @@
 {
+  "scripts" : {
+    "start": "node index"
+  },
   "dependencies": {
-    "lolcatjs": "^2.3.0",
+    "lolcatjs": "^2.3.2",
     "moment": "^2.19.1"
   }
 }
